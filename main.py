@@ -48,3 +48,4 @@ def root():
 def test():
     send_slack_message("✅ *슬랙 알림 테스트 메시지입니다.* 시스템 작동 확인용.")
     return {"status": "sent"}
+# ✅ 마지막 수정: 2025-05-26 15:40 테스트용 주석 추가
