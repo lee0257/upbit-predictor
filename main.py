@@ -5,7 +5,7 @@ import os
 app = FastAPI()
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_IDS = os.getenv("CHAT_IDS", "").split(",")  # 쉼표로 구분된 다중 ID
+CHAT_IDS = os.getenv("CHAT_IDS", "").split(",")
 SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
 
 def send_telegram_message(message: str):
